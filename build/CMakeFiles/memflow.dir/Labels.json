@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/rick/Desktop/Linux Overlay/build/CMakeFiles/memflow"
+		},
+		{
+			"file" : "/home/rick/Desktop/Linux Overlay/build/CMakeFiles/memflow.rule"
+		},
+		{
+			"file" : "/home/rick/Desktop/Linux Overlay/build/CMakeFiles/memflow-complete.rule"
+		},
+		{
+			"file" : "/home/rick/Desktop/Linux Overlay/build/rs/src/memflow-stamp/memflow-build.rule"
+		},
+		{
+			"file" : "/home/rick/Desktop/Linux Overlay/build/rs/src/memflow-stamp/memflow-configure.rule"
+		},
+		{
+			"file" : "/home/rick/Desktop/Linux Overlay/build/rs/src/memflow-stamp/memflow-download.rule"
+		},
+		{
+			"file" : "/home/rick/Desktop/Linux Overlay/build/rs/src/memflow-stamp/memflow-install.rule"
+		},
+		{
+			"file" : "/home/rick/Desktop/Linux Overlay/build/rs/src/memflow-stamp/memflow-mkdir.rule"
+		},
+		{
+			"file" : "/home/rick/Desktop/Linux Overlay/build/rs/src/memflow-stamp/memflow-patch.rule"
+		},
+		{
+			"file" : "/home/rick/Desktop/Linux Overlay/build/rs/src/memflow-stamp/memflow-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"memflow"
+		],
+		"name" : "memflow"
+	}
+}
