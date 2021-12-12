@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "/home/rick/Desktop/Linux Overlay/glfw-master/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/home/rick/Desktop/Linux Overlay/glfw-master/install_manifest.txt\"")
+if (NOT EXISTS "/home/rick/Desktop/Linux Apex Cheat/glfw-master/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/home/rick/Desktop/Linux Apex Cheat/glfw-master/install_manifest.txt\"")
 endif()
 
-file(READ "/home/rick/Desktop/Linux Overlay/glfw-master/install_manifest.txt" files)
+file(READ "/home/rick/Desktop/Linux Apex Cheat/glfw-master/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

@@ -1,4 +1,4 @@
-# Install script for directory: /home/rick/Desktop/Linux Overlay
+# Install script for directory: /home/rick/Desktop/Linux Apex Cheat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/rick/Desktop/Linux Overlay/glfw-master/cmake_install.cmake")
+  include("/home/rick/Desktop/Linux Apex Cheat/glfw-master/cmake_install.cmake")
 
 endif()
 
@@ -56,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/rick/Desktop/Linux Overlay/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/rick/Desktop/Linux Apex Cheat/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

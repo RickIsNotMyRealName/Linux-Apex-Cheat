@@ -1,11 +1,11 @@
 
 cmake_minimum_required(VERSION 3.15)
 
-set(command "/usr/bin/cmake;-Dmake=${make};-Dconfig=${config};-P;/home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-build--impl.cmake")
+set(command "/usr/bin/cmake;-Dmake=${make};-Dconfig=${config};-P;/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-build--impl.cmake")
 set(log_merged "")
 set(log_output_on_failure "")
-set(stdout_log "/home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-build-out.log")
-set(stderr_log "/home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-build-err.log")
+set(stdout_log "/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-build-out.log")
+set(stderr_log "/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-build-err.log")
 execute_process(
   COMMAND ${command}
   RESULT_VARIABLE result
@@ -31,7 +31,7 @@ if(result)
   if (${log_merged})
     set(msg "${msg}\nSee also\n  ${stderr_log}")
   else()
-    set(msg "${msg}\nSee also\n  /home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-build-*.log")
+    set(msg "${msg}\nSee also\n  /home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-build-*.log")
   endif()
   if (${log_output_on_failure})
     message(SEND_ERROR "${msg}")
@@ -50,7 +50,7 @@ if(result)
   endif()
 else()
   if(NOT "Unix Makefiles" MATCHES "Ninja")
-    set(msg "memflow build command succeeded.  See also /home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-build-*.log")
+    set(msg "memflow build command succeeded.  See also /home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-build-*.log")
     message(STATUS "${msg}")
   endif()
 endif()

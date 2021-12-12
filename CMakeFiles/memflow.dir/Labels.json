@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/rick/Desktop/Linux Overlay/CMakeFiles/memflow"
+			"file" : "/home/rick/Desktop/Linux Apex Cheat/CMakeFiles/memflow"
 		},
 		{
-			"file" : "/home/rick/Desktop/Linux Overlay/CMakeFiles/memflow.rule"
+			"file" : "/home/rick/Desktop/Linux Apex Cheat/CMakeFiles/memflow.rule"
 		},
 		{
-			"file" : "/home/rick/Desktop/Linux Overlay/CMakeFiles/memflow-complete.rule"
+			"file" : "/home/rick/Desktop/Linux Apex Cheat/CMakeFiles/memflow-complete.rule"
 		},
 		{
-			"file" : "/home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-build.rule"
+			"file" : "/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-build.rule"
 		},
 		{
-			"file" : "/home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-configure.rule"
+			"file" : "/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-configure.rule"
 		},
 		{
-			"file" : "/home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-download.rule"
+			"file" : "/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-download.rule"
 		},
 		{
-			"file" : "/home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-install.rule"
+			"file" : "/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-install.rule"
 		},
 		{
-			"file" : "/home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-mkdir.rule"
+			"file" : "/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-mkdir.rule"
 		},
 		{
-			"file" : "/home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-patch.rule"
+			"file" : "/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-patch.rule"
 		},
 		{
-			"file" : "/home/rick/Desktop/Linux Overlay/rs/src/memflow-stamp/memflow-update.rule"
+			"file" : "/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow-stamp/memflow-update.rule"
 		}
 	],
 	"target" : 

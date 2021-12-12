@@ -15,8 +15,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "glfw-master/CMake/glfw3.pc.in"
   "glfw-master/CMake/glfw3Config.cmake.in"
   "glfw-master/CMakeLists.txt"
-  "glfw-master/docs/CMakeLists.txt"
-  "glfw-master/docs/Doxyfile.in"
   "glfw-master/src/CMakeLists.txt"
   "rs/tmp/memflow-cfgcmd.txt.in"
   "/usr/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
@@ -50,8 +48,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/CMakeTestCCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeTestCompilerCommon.cmake"
+  "/usr/share/cmake-3.22/Modules/CMakeUnixFindMake.cmake"
   "/usr/share/cmake-3.22/Modules/CheckCSourceCompiles.cmake"
+  "/usr/share/cmake-3.22/Modules/CheckFunctionExists.c"
   "/usr/share/cmake-3.22/Modules/CheckFunctionExists.cmake"
+  "/usr/share/cmake-3.22/Modules/CheckIncludeFile.c.in"
   "/usr/share/cmake-3.22/Modules/CheckIncludeFile.cmake"
   "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
   "/usr/share/cmake-3.22/Modules/Compiler/ADSP-DetermineCompiler.cmake"
@@ -107,7 +108,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.22/Modules/ExternalProject-gitupdate.cmake.in"
   "/usr/share/cmake-3.22/Modules/ExternalProject.cmake"
-  "/usr/share/cmake-3.22/Modules/FindDoxygen.cmake"
   "/usr/share/cmake-3.22/Modules/FindFontconfig.cmake"
   "/usr/share/cmake-3.22/Modules/FindFreetype.cmake"
   "/usr/share/cmake-3.22/Modules/FindGit.cmake"
@@ -156,8 +156,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "glfw-master/CMakeFiles/CMakeDirectoryInformation.cmake"
   "glfw-master/src/glfw3.pc"
   "glfw-master/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "glfw-master/docs/Doxyfile"
-  "glfw-master/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -167,5 +165,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "glfw-master/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "glfw-master/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   "glfw-master/src/CMakeFiles/update_mappings.dir/DependInfo.cmake"
-  "glfw-master/docs/CMakeFiles/docs.dir/DependInfo.cmake"
   )

@@ -1107,13 +1107,10 @@ int Overlay::RenderLoop()
 
 		if (Settings::showMenu == true)
 		{
-			ImGui::ShowDemoWindow();
+			//ImGui::ShowDemoWindow();// have this for styling
 			Overlay::RenderMenu();
 		}
-		// Overlay::test();
-		// ImGui::SetNextWindowPos(ImVec2(0, 0));
-		// ImGui::SetNextWindowSize(ImVec2((float)display_w,(float)display_h));
-		Overlay::MainLoop();
+
 		Overlay::RenderPlayerEsp();
 		Overlay::RenderItemEsp();
 		Overlay::RenderRadar();

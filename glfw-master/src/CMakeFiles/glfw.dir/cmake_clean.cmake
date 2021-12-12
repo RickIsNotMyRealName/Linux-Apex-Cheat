@@ -43,8 +43,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/glfw.dir/x11_window.c.o.d"
   "CMakeFiles/glfw.dir/xkb_unicode.c.o"
   "CMakeFiles/glfw.dir/xkb_unicode.c.o.d"
-  "libglfw3.a"
-  "libglfw3.pdb"
+  "libglfw.pdb"
+  "libglfw.so"
+  "libglfw.so.3"
+  "libglfw.so.3.4"
 )
 
 # Per-language clean rules from dependency scanning.

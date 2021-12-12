@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/rick/Desktop/Linux Overlay/memflow" -I"/home/rick/Desktop/Linux Overlay/rs/src/memflow/memflow-ffi" -I"/home/rick/Desktop/Linux Overlay/rs/src/memflow/memflow-win32-ffi" -I"/home/rick/Desktop/Linux Overlay/glfw-master/include"
+CXX_INCLUDES = -I"/home/rick/Desktop/Linux Apex Cheat/memflow" -I"/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow/memflow-ffi" -I"/home/rick/Desktop/Linux Apex Cheat/rs/src/memflow/memflow-win32-ffi" -I"/home/rick/Desktop/Linux Apex Cheat/glfw-master/include"
 
 CXX_FLAGS = -Wno-multichar -std=c++17 -Wall -Wextra -g -std=gnu++17
 

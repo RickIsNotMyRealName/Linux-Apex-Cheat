@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/rick/Desktop/Linux Overlay"
+CMAKE_SOURCE_DIR = "/home/rick/Desktop/Linux Apex Cheat"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/rick/Desktop/Linux Overlay"
+CMAKE_BINARY_DIR = "/home/rick/Desktop/Linux Apex Cheat"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/rick/Desktop/Linux Overlay/CMakeFiles" "/home/rick/Desktop/Linux Overlay//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/rick/Desktop/Linux Apex Cheat/CMakeFiles" "/home/rick/Desktop/Linux Apex Cheat//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/rick/Desktop/Linux Overlay/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/rick/Desktop/Linux Apex Cheat/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -226,19 +226,6 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f glfw-master/src/CMakeFiles/update_mappings.dir/build.make glfw-master/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
-#=============================================================================
-# Target rules for targets named docs
-
-# Build rule for target.
-docs: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs
-.PHONY : docs
-
-# fast build rule for target.
-docs/fast:
-	$(MAKE) $(MAKESILENT) -f glfw-master/docs/CMakeFiles/docs.dir/build.make glfw-master/docs/CMakeFiles/docs.dir/build
-.PHONY : docs/fast
-
 aimBotSettings.o: aimBotSettings.cpp.o
 .PHONY : aimBotSettings.o
 
@@ -287,30 +274,6 @@ configManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/configManager.cpp.s
 .PHONY : configManager.cpp.s
 
-drawing.o: drawing.cpp.o
-.PHONY : drawing.o
-
-# target to build an object file
-drawing.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/drawing.cpp.o
-.PHONY : drawing.cpp.o
-
-drawing.i: drawing.cpp.i
-.PHONY : drawing.i
-
-# target to preprocess a source file
-drawing.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/drawing.cpp.i
-.PHONY : drawing.cpp.i
-
-drawing.s: drawing.cpp.s
-.PHONY : drawing.s
-
-# target to generate assembly for a file
-drawing.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/drawing.cpp.s
-.PHONY : drawing.cpp.s
-
 entity.o: entity.cpp.o
 .PHONY : entity.o
 
@@ -334,54 +297,6 @@ entity.s: entity.cpp.s
 entity.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/entity.cpp.s
 .PHONY : entity.cpp.s
-
-gameCtx.o: gameCtx.cpp.o
-.PHONY : gameCtx.o
-
-# target to build an object file
-gameCtx.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/gameCtx.cpp.o
-.PHONY : gameCtx.cpp.o
-
-gameCtx.i: gameCtx.cpp.i
-.PHONY : gameCtx.i
-
-# target to preprocess a source file
-gameCtx.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/gameCtx.cpp.i
-.PHONY : gameCtx.cpp.i
-
-gameCtx.s: gameCtx.cpp.s
-.PHONY : gameCtx.s
-
-# target to generate assembly for a file
-gameCtx.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/gameCtx.cpp.s
-.PHONY : gameCtx.cpp.s
-
-helpers.o: helpers.cpp.o
-.PHONY : helpers.o
-
-# target to build an object file
-helpers.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/helpers.cpp.o
-.PHONY : helpers.cpp.o
-
-helpers.i: helpers.cpp.i
-.PHONY : helpers.i
-
-# target to preprocess a source file
-helpers.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/helpers.cpp.i
-.PHONY : helpers.cpp.i
-
-helpers.s: helpers.cpp.s
-.PHONY : helpers.s
-
-# target to generate assembly for a file
-helpers.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinuxOverlay.dir/build.make CMakeFiles/LinuxOverlay.dir/helpers.cpp.s
-.PHONY : helpers.cpp.s
 
 imgui/imgui.o: imgui/imgui.cpp.o
 .PHONY : imgui/imgui.o
@@ -707,7 +622,6 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... docs"
 	@echo "... memflow"
 	@echo "... uninstall"
 	@echo "... update_mappings"
@@ -719,18 +633,9 @@ help:
 	@echo "... configManager.o"
 	@echo "... configManager.i"
 	@echo "... configManager.s"
-	@echo "... drawing.o"
-	@echo "... drawing.i"
-	@echo "... drawing.s"
 	@echo "... entity.o"
 	@echo "... entity.i"
 	@echo "... entity.s"
-	@echo "... gameCtx.o"
-	@echo "... gameCtx.i"
-	@echo "... gameCtx.s"
-	@echo "... helpers.o"
-	@echo "... helpers.i"
-	@echo "... helpers.s"
 	@echo "... imgui/imgui.o"
 	@echo "... imgui/imgui.i"
 	@echo "... imgui/imgui.s"
